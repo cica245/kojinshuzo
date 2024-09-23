@@ -1,0 +1,153 @@
+p {
+    font-family: "メイリオ", Meiryo, sans-serif !important;
+  }
+  a {
+    color: #134D99;
+    text-decoration: none !important;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    margin: 0;
+    position: relative;
+    font-weight: normal;
+    background: linear-gradient(to right, rgb(48, 224, 192) 0%,rgba(96,155,208,0.7) 30%,rgba(125,185,232,0) 100%);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+  }
+  h3 {
+    color:#FFF !important;
+    position: relative;
+    background-color: #5a65ff;
+    font-size: small;
+    padding-left: 20px !important;
+  }
+  h3 .weight{
+    color:#FFF;
+    position: relative;
+    font-weight: 700;
+    padding: .5rem 1rem;
+    background-color: #5a65ff;
+    margin-bottom: 20px !important;
+  }
+  h3 .weight::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: none;
+    border-right: solid 20px #585fc0;
+    border-bottom: solid 15px transparent;
+  }
+  h4 {
+    background-color: skyblue;
+    padding-left: 5px;
+  }
+  h5 {
+    border-left: 3px solid rgb(2, 22, 59);
+    padding-left: 5px;
+    overflow-wrap:  break-word;
+  }
+  @media (min-width: 768px) {
+    .form-size {
+      max-width: 768px !important;
+    }
+  }
+  .right {
+      display: flex;
+      justify-content: flex-end;
+  }
+  .highlight {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fffaf0;
+  }
+  .pt80 {
+    padding-top: 80px!important;
+  }
+  .mb0 {
+    margin-bottom: 0!important;
+  }
+  .align1 {
+    text-align: center !important;
+  }
+  .sticky_table thead th {
+      /* 縦スクロール時に固定する */
+      position: -webkit-sticky;
+      position: sticky;
+      top: 65px;
+      /* tbody内のセルより手前に表示する */
+      z-index: 1;
+  }
+  .title {
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+                -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+                0px 1px 0 #FFF,  0-1px 0 #FFF,
+                -1px 0 0 #FFF, 1px 0 0 #FFF;
+    padding-top:100px;
+  }
+  .nav-title {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .table-blue {
+    background-color:#aad5ff;
+    padding: 10px;
+  }
+  .table-skyblue {
+    background-color:#aaffff;
+    padding: 10px;
+  }
+  .table-gray {
+    background-color:#dfdfdfaf;
+    padding: 10px;
+  }
+  .table-white {
+    background-color:#fff;
+    padding: 10px;
+  }
+  .table-green {
+    background-color:#66cc66;
+    padding: 10px;
+  }
+  .table-lightgreen {
+    background-color:#90ee90;
+    padding: 10px;
+  }
+  .table-orange {
+    background-color:#ffaa55;
+    padding: 10px;
+  }
+  .table-lightorange {
+    background-color:#ffead5;
+    padding: 10px;
+  }
+    /* ----------- iPad mini ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+  }
+
+  /* ----------- iPad 1 and 2 ----------- */
+  /* Portrait and Landscape */
+  @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+  }
+
+  /* ----------- iPad 3 and 4 ----------- */
+  /* Portrait and Landscape */
+  @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+  }
