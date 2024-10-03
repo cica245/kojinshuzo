@@ -8,21 +8,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('riyoukitei') }}"><i class="fas fa-list me-3"></i>利用規定</a>
+                    <a class="nav-link" href="{{ route('riyoukitei') }}"><i class="fas fa-list me-3"></i>利用規定</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('help') }}"><i class="fas fa-question-circle me-3"></i>ヘルプ</a>
+                    <a class="nav-link" href="{{ route('help') }}"><i class="fas fa-question-circle me-3"></i>ヘルプ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('sciencedatas') }}"><i class="fas fa-database me-3"></i>データベース検索</a>
+                    <a class="nav-link" href="{{ route('search') }}"><i class="fas fa-database me-3"></i>データベース検索</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('map') }}"><i class="fas fa-map-marker-alt me-3"></i>ラベル作成支援ツール</a>
+                    <a class="nav-link" href="{{ route('map') }}"><i class="fas fa-map-marker-alt me-3"></i>ラベル作成支援ツール</a>
                 </li>
             </ul>
 
             <form class="d-flex form-group">
-                <a href="{{ url('login/google') }}" style="color:#FFF;"><button class="btn btn-primary"><i
+                <a href="{{ route('google') }}" style="color:#FFF;"><button class="btn btn-primary"><i
                             class="fas fa-sign-in-alt me-3"></i>Login with Google</a>
             </form>
         </div>

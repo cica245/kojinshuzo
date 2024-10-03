@@ -1,4 +1,4 @@
-<x-layout>
+<x-mypage_layout>
     <x-slot:title>
         検索結果一覧 | 個人収蔵.com
     </x-slot>
@@ -41,7 +41,7 @@
                             <?php if($science_data->gazou){ ?>
                             <!-- Button trigger modal -->
                             <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-{{$science_data->id}}">
-                                <img src="{{ $science_data->gazou }}" width="100px" height="100px"/>
+                                <img src="{{ e($science_data->gazou) }}" width="100px" height="100px"/>
                             </button>
 
                             <!-- Modal -->
@@ -56,7 +56,7 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <img src="{{ $science_data->gazou }}" />
+                                            <img src="{{ $science_data->gazou}}" />
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
@@ -67,7 +67,7 @@
                             </div>
                             <?php } ?>
                         </td>
-                        <td class="col-lg-1"><a href="{{ $science_data->id }}"><button type="submit"
+                        <td class="col-lg-1"><a href="loginshow/{{ $science_data->id}}"><button type="submit"
                                     class="btn btn-primary">詳細</button></a></td>
                     </tr>
                     </tr>
@@ -135,4 +135,4 @@
 
         // });
     </script>
-</x-layout>
+</x-mypage_layout>

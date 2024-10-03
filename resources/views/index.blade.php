@@ -1,6 +1,13 @@
 <x-top_layout>
     <div class="container item">
         <h1></h1>
+        <div class="container-fluid mt-5 border border-danger border-4">
+            <section class="container">
+                <h2 class="align1 mt-3 mb-5">お知らせ</h2>
+                <p>■2024/9/23  Laravel11への移行作業中です。
+                </p>
+            </section>
+        </div>
         <h2 class="align1 mt-3 mb-5">Concept</h2>
         <section class="row">
             <section class="col-md-5 mb-5">

@@ -12,7 +12,7 @@
 
         <p>ログインに成功しました。</p>
         <img class="mx-auto d-block mb-5" src="{{url('images/land.png')}}" alt="景色" />
-        <h3>あなたが登録したデータ（最新10件）</h3>
+        <h3>あなたが登録したデータ（最新0件）</h3>
         <div class="row">
 
             <div class="col-sm-6 mb-3">
